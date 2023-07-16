@@ -97,7 +97,6 @@ span {
 .h5 {
     color: #fff;
     text-transform: capitalize;
-    text-align: center;
 }
 
 .h2 {
@@ -115,6 +114,10 @@ span {
 .h5 {
     font-size: 13px;
     font-weight: 500;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .text-red {
