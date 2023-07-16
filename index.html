@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
 </head>
 <body>
     
-    <header class="header">
+    <header class="header paddingX">
         <a href="#" class="logo">Portfolio.</a>
 
         <nav class="navbar">
             <a href="#" style="--i:1;" class="active">Home</a>
             <a href="#" style="--i:2;">About</a>
             <a href="#" style="--i:3;">Skills</a>
-            <a href="#" style="--i:4;">Services</a>
+            <a href="#" style="--i:4;">Projects</a>
             <a href="#" style="--i:5;">Contact</a>
             <span class="close-nav text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
@@ -31,7 +32,7 @@
         </div>
     </header>
 
-    <section class="home">
+    <section class="home paddingX">
 
         <div class="home-sci">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -41,7 +42,7 @@
 
         <div class="home-content">
             <h1>Hi, I'm Rsj Zoé</h1>
-            <h3>Full-stack developer</h3>
+            <h3 class="text-gradient">Full-stack developer</h3>
             <p>This is my official Portfolio website to showes all
                 Details and work experience web development...
             </p>
@@ -58,6 +59,205 @@
             </div>
         </div>
     </section>
+
+
+    <section class="about paddingX">
+        <div>
+            <h2 class="h2 article-title text-gradient">About me</h2>
+        </div>
+        <section class="about-text">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorum dolores minima inventore exercitationem pariatur placeat distinctio perspiciatis quis magni.
+            </p>    
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia similique cum quidem, ad a magni odit ullam architecto illo aliquam labore sint temporibus aperiam, minima veniam eum eius incidunt nulla.
+            </p>
+        </section>
+    </section>
+
+
+    <section class="service paddingX">
+        <h3 class="h3 service-title text-gradient">What i'm doing</h3>
+        <ul class="service-list">
+            <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+                </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Lorem ipsum</h4>
+                  <p class="service-item-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nostrum!
+                  </p>
+                </div>
+            </li>
+            <li class="service-item">
+                <div class="service-icon-box">
+                  <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                </div>
+                <div class="service-content-box">
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Lorem ipsum</h4>
+                        <p class="service-item-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nostrum!
+                        </p>
+                      </div>
+                </div>
+             </li>
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                </div>
+                <div class="service-content-box">
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Lorem ipsum</h4>
+                        <p class="service-item-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nostrum!
+                        </p>
+                      </div>
+                </div>
+            </li>
+    
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+                </div>
+                <div class="service-content-box">
+                    <div class="service-content-box">
+                        <h4 class="h4 service-item-title">Lorem ipsum</h4>
+                        <p class="service-item-text">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, nostrum!
+                        </p>
+                      </div>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+
+    <section class="skill paddingX">
+        <h3 class="h3 skills-title text-gradient">My skills</h3>
+        <ul class="skills-list content-card">
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">Web design</h5>
+                    <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+            </li>
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">Web design</h5>
+                    <data value="80">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+            </li>
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">Web design</h5>
+                    <data value="80">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+            </li>
+            <li class="skills-item">
+                <div class="title-wrapper">
+                    <h5 class="h5">Web design</h5>
+                    <data value="80">50%</data>
+                </div>
+                <div class="skill-progress-bg">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <section class="paddingX">
+        <div>
+            <h2 class="h2 article-title text-gradient">Projects</h2>
+        </div>
+        <div class="projects">
+            <ul class="project-list">
+                <li class="project-item">
+                    <a href="#">
+                        <figure class="project-img">
+                            <img src="./assets/images/project-1.jpg">
+                        </figure>
+                        <h3 class="project-title">Finance</h3>
+                        <p class="project-category">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                </li>
+                <li class="project-item">
+                    <a href="#">
+                        <figure class="project-img">
+                            <img src="./assets/images/project-2.png">
+                        </figure>
+                        <h3 class="project-title">Finance</h3>
+                        <p class="project-category">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                </li>
+                <li class="project-item">
+                    <a href="#">
+                        <figure class="project-img">
+                            <img src="./assets/images/project-4.png">
+                        </figure>
+                        <h3 class="project-title">App</h3>
+                        <p class="project-category">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                </li>
+                <li class="project-item">
+                    <a href="#">
+                        <figure class="project-img">
+                            <img src="./assets/images/project.png">
+                        </figure>
+                        <h3 class="project-title">App</h3>
+                        <p class="project-category">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                </li>
+                <li class="project-item">
+                    <a href="#">
+                        <figure class="project-img">
+                            <img src="./assets/images/project-4.png">
+                        </figure>
+                        <h3 class="project-title">App</h3>
+                        <p class="project-category">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                </li>
+                <li class="project-item">
+                    <a href="#">
+                        <figure class="project-img">
+                            <img src="./assets/images/project.png">
+                        </figure>
+                        <h3 class="project-title">App</h3>
+                        <p class="project-category">Lorem ipsum dolor sit amet.</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="paddingX contact-form">
+        <h3 class="h3 form-title text-gradient">Contact Form</h3>
+        <form action="#" class="form">
+            <div class="input-wrapper">
+                <input type="text" name="fullname" class="form-input" placeholder="Full name">
+                <input type="email" name="email" class="form-input" placeholder="Email address">
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message"></textarea>
+            <button class="form-btn" type="submit">
+                <span class="text-gradient">Send Message</span>
+            </button>
+        </form>
+
+    </section>
+
+    <footer>
+        © Rsj Zoé
+    </footer>
 
     <script src="index.js"></script>
 </body>
